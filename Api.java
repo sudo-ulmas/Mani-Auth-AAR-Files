@@ -72,6 +72,17 @@ public class Api {
   @Retention(CLASS)
   @interface CanIgnoreReturnValue {}
 
+  public enum Environment {
+    DEV(0),
+    PROD(1);
+
+    final int index;
+
+    private Environment(final int index) {
+      this.index = index;
+    }
+  }
+
   /** Generated class from Pigeon that represents data sent in messages. */
   public static final class Token {
     private @Nullable String accessToken;
@@ -173,17 +184,27 @@ public class Api {
       this.locale = setterArg;
     }
 
+    private @Nullable Environment environment;
+
+    public @Nullable Environment getEnvironment() {
+      return environment;
+    }
+
+    public void setEnvironment(@Nullable Environment setterArg) {
+      this.environment = setterArg;
+    }
+
     @Override
     public boolean equals(Object o) {
       if (this == o) { return true; }
       if (o == null || getClass() != o.getClass()) { return false; }
       HostInfo that = (HostInfo) o;
-      return Objects.equals(paymentSystemId, that.paymentSystemId) && Objects.equals(locale, that.locale);
+      return Objects.equals(paymentSystemId, that.paymentSystemId) && Objects.equals(locale, that.locale) && Objects.equals(environment, that.environment);
     }
 
     @Override
     public int hashCode() {
-      return Objects.hash(paymentSystemId, locale);
+      return Objects.hash(paymentSystemId, locale, environment);
     }
 
     public static final class Builder {
@@ -204,19 +225,29 @@ public class Api {
         return this;
       }
 
+      private @Nullable Environment environment;
+
+      @CanIgnoreReturnValue
+      public @NonNull Builder setEnvironment(@Nullable Environment setterArg) {
+        this.environment = setterArg;
+        return this;
+      }
+
       public @NonNull HostInfo build() {
         HostInfo pigeonReturn = new HostInfo();
         pigeonReturn.setPaymentSystemId(paymentSystemId);
         pigeonReturn.setLocale(locale);
+        pigeonReturn.setEnvironment(environment);
         return pigeonReturn;
       }
     }
 
     @NonNull
     ArrayList<Object> toList() {
-      ArrayList<Object> toListResult = new ArrayList<Object>(2);
+      ArrayList<Object> toListResult = new ArrayList<Object>(3);
       toListResult.add(paymentSystemId);
       toListResult.add(locale);
+      toListResult.add(environment);
       return toListResult;
     }
 
@@ -226,6 +257,8 @@ public class Api {
       pigeonResult.setPaymentSystemId((String) paymentSystemId);
       Object locale = __pigeon_list.get(1);
       pigeonResult.setLocale((String) locale);
+      Object environment = __pigeon_list.get(2);
+      pigeonResult.setEnvironment((Environment) environment);
       return pigeonResult;
     }
   }
@@ -242,6 +275,9 @@ public class Api {
           return Token.fromList((ArrayList<Object>) readValue(buffer));
         case (byte) 130:
           return HostInfo.fromList((ArrayList<Object>) readValue(buffer));
+        case (byte) 131:
+          Object value = readValue(buffer);
+          return value == null ? null : Environment.values()[(int) value];
         default:
           return super.readValueOfType(type, buffer);
       }
@@ -255,6 +291,9 @@ public class Api {
       } else if (value instanceof HostInfo) {
         stream.write(130);
         writeValue(stream, ((HostInfo) value).toList());
+      } else if (value instanceof Environment) {
+        stream.write(131);
+        writeValue(stream, value == null ? null : ((Environment) value).index);
       } else {
         super.writeValue(stream, value);
       }
