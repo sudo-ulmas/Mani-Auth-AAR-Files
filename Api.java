@@ -72,13 +72,24 @@ public class Api {
   @Retention(CLASS)
   @interface CanIgnoreReturnValue {}
 
-  public enum Environment {
+  public enum ManiEnvironment {
     DEV(0),
     PROD(1);
 
     final int index;
 
-    private Environment(final int index) {
+    private ManiEnvironment(final int index) {
+      this.index = index;
+    }
+  }
+
+  public enum ManiResidentType {
+    RESIDENT(0),
+    NON_RESIDENT(1);
+
+    final int index;
+
+    private ManiResidentType(final int index) {
       this.index = index;
     }
   }
@@ -184,14 +195,34 @@ public class Api {
       this.locale = setterArg;
     }
 
-    private @Nullable Environment environment;
+    private @Nullable String pinfl;
 
-    public @Nullable Environment getEnvironment() {
+    public @Nullable String getPinfl() {
+      return pinfl;
+    }
+
+    public void setPinfl(@Nullable String setterArg) {
+      this.pinfl = setterArg;
+    }
+
+    private @Nullable ManiEnvironment environment;
+
+    public @Nullable ManiEnvironment getEnvironment() {
       return environment;
     }
 
-    public void setEnvironment(@Nullable Environment setterArg) {
+    public void setEnvironment(@Nullable ManiEnvironment setterArg) {
       this.environment = setterArg;
+    }
+
+    private @Nullable ManiResidentType residentType;
+
+    public @Nullable ManiResidentType getResidentType() {
+      return residentType;
+    }
+
+    public void setResidentType(@Nullable ManiResidentType setterArg) {
+      this.residentType = setterArg;
     }
 
     @Override
@@ -199,12 +230,12 @@ public class Api {
       if (this == o) { return true; }
       if (o == null || getClass() != o.getClass()) { return false; }
       HostInfo that = (HostInfo) o;
-      return Objects.equals(paymentSystemId, that.paymentSystemId) && Objects.equals(locale, that.locale) && Objects.equals(environment, that.environment);
+      return Objects.equals(paymentSystemId, that.paymentSystemId) && Objects.equals(locale, that.locale) && Objects.equals(pinfl, that.pinfl) && Objects.equals(environment, that.environment) && Objects.equals(residentType, that.residentType);
     }
 
     @Override
     public int hashCode() {
-      return Objects.hash(paymentSystemId, locale, environment);
+      return Objects.hash(paymentSystemId, locale, pinfl, environment, residentType);
     }
 
     public static final class Builder {
@@ -225,11 +256,27 @@ public class Api {
         return this;
       }
 
-      private @Nullable Environment environment;
+      private @Nullable String pinfl;
 
       @CanIgnoreReturnValue
-      public @NonNull Builder setEnvironment(@Nullable Environment setterArg) {
+      public @NonNull Builder setPinfl(@Nullable String setterArg) {
+        this.pinfl = setterArg;
+        return this;
+      }
+
+      private @Nullable ManiEnvironment environment;
+
+      @CanIgnoreReturnValue
+      public @NonNull Builder setEnvironment(@Nullable ManiEnvironment setterArg) {
         this.environment = setterArg;
+        return this;
+      }
+
+      private @Nullable ManiResidentType residentType;
+
+      @CanIgnoreReturnValue
+      public @NonNull Builder setResidentType(@Nullable ManiResidentType setterArg) {
+        this.residentType = setterArg;
         return this;
       }
 
@@ -237,17 +284,21 @@ public class Api {
         HostInfo pigeonReturn = new HostInfo();
         pigeonReturn.setPaymentSystemId(paymentSystemId);
         pigeonReturn.setLocale(locale);
+        pigeonReturn.setPinfl(pinfl);
         pigeonReturn.setEnvironment(environment);
+        pigeonReturn.setResidentType(residentType);
         return pigeonReturn;
       }
     }
 
     @NonNull
     ArrayList<Object> toList() {
-      ArrayList<Object> toListResult = new ArrayList<Object>(3);
+      ArrayList<Object> toListResult = new ArrayList<Object>(5);
       toListResult.add(paymentSystemId);
       toListResult.add(locale);
+      toListResult.add(pinfl);
       toListResult.add(environment);
+      toListResult.add(residentType);
       return toListResult;
     }
 
@@ -257,8 +308,12 @@ public class Api {
       pigeonResult.setPaymentSystemId((String) paymentSystemId);
       Object locale = __pigeon_list.get(1);
       pigeonResult.setLocale((String) locale);
-      Object environment = __pigeon_list.get(2);
-      pigeonResult.setEnvironment((Environment) environment);
+      Object pinfl = __pigeon_list.get(2);
+      pigeonResult.setPinfl((String) pinfl);
+      Object environment = __pigeon_list.get(3);
+      pigeonResult.setEnvironment((ManiEnvironment) environment);
+      Object residentType = __pigeon_list.get(4);
+      pigeonResult.setResidentType((ManiResidentType) residentType);
       return pigeonResult;
     }
   }
@@ -277,7 +332,10 @@ public class Api {
           return HostInfo.fromList((ArrayList<Object>) readValue(buffer));
         case (byte) 131:
           Object value = readValue(buffer);
-          return value == null ? null : Environment.values()[(int) value];
+          return value == null ? null : ManiEnvironment.values()[(int) value];
+        case (byte) 132:
+          Object value = readValue(buffer);
+          return value == null ? null : ManiResidentType.values()[(int) value];
         default:
           return super.readValueOfType(type, buffer);
       }
@@ -291,9 +349,12 @@ public class Api {
       } else if (value instanceof HostInfo) {
         stream.write(130);
         writeValue(stream, ((HostInfo) value).toList());
-      } else if (value instanceof Environment) {
+      } else if (value instanceof ManiEnvironment) {
         stream.write(131);
-        writeValue(stream, value == null ? null : ((Environment) value).index);
+        writeValue(stream, value == null ? null : ((ManiEnvironment) value).index);
+      } else if (value instanceof ManiResidentType) {
+        stream.write(132);
+        writeValue(stream, value == null ? null : ((ManiResidentType) value).index);
       } else {
         super.writeValue(stream, value);
       }
