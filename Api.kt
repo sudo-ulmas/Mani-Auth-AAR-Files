@@ -95,6 +95,7 @@ data class HostInfo (
   val paymentSystemId: String? = null,
   val locale: String? = null,
   val pinfl: String? = null,
+  val phoneNumber: String? = null,
   val environment: ManiEnvironment? = null,
   val residentType: ManiResidentType? = null
 
@@ -105,9 +106,10 @@ data class HostInfo (
       val paymentSystemId = __pigeon_list[0] as String?
       val locale = __pigeon_list[1] as String?
       val pinfl = __pigeon_list[2] as String?
-      val environment = __pigeon_list[3] as ManiEnvironment?
-      val residentType = __pigeon_list[4] as ManiResidentType?
-      return HostInfo(paymentSystemId, locale, pinfl, environment, residentType)
+      val phoneNumber = __pigeon_list[3] as String?
+      val environment = __pigeon_list[4] as ManiEnvironment?
+      val residentType = __pigeon_list[5] as ManiResidentType?
+      return HostInfo(paymentSystemId, locale, pinfl, phoneNumber, environment, residentType)
     }
   }
   fun toList(): List<Any?> {
@@ -115,6 +117,7 @@ data class HostInfo (
       paymentSystemId,
       locale,
       pinfl,
+      phoneNumber,
       environment,
       residentType,
     )
