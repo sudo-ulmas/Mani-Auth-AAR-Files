@@ -94,6 +94,17 @@ public class Api {
     }
   }
 
+  public enum DesignVariant {
+    MANI(0),
+    SMARTBANK(1);
+
+    final int index;
+
+    private DesignVariant(final int index) {
+      this.index = index;
+    }
+  }
+
   /** Generated class from Pigeon that represents data sent in messages. */
   public static final class Token {
     private @Nullable String accessToken;
@@ -235,17 +246,27 @@ public class Api {
       this.residentType = setterArg;
     }
 
+    private @Nullable DesignVariant designVariant;
+
+    public @Nullable DesignVariant getDesignVariant() {
+      return designVariant;
+    }
+
+    public void setDesignVariant(@Nullable DesignVariant setterArg) {
+      this.designVariant = setterArg;
+    }
+
     @Override
     public boolean equals(Object o) {
       if (this == o) { return true; }
       if (o == null || getClass() != o.getClass()) { return false; }
       HostInfo that = (HostInfo) o;
-      return Objects.equals(paymentSystemId, that.paymentSystemId) && Objects.equals(locale, that.locale) && Objects.equals(pinfl, that.pinfl) && Objects.equals(phoneNumber, that.phoneNumber) && Objects.equals(environment, that.environment) && Objects.equals(residentType, that.residentType);
+      return Objects.equals(paymentSystemId, that.paymentSystemId) && Objects.equals(locale, that.locale) && Objects.equals(pinfl, that.pinfl) && Objects.equals(phoneNumber, that.phoneNumber) && Objects.equals(environment, that.environment) && Objects.equals(residentType, that.residentType) && Objects.equals(designVariant, that.designVariant);
     }
 
     @Override
     public int hashCode() {
-      return Objects.hash(paymentSystemId, locale, pinfl, phoneNumber, environment, residentType);
+      return Objects.hash(paymentSystemId, locale, pinfl, phoneNumber, environment, residentType, designVariant);
     }
 
     public static final class Builder {
@@ -298,6 +319,14 @@ public class Api {
         return this;
       }
 
+      private @Nullable DesignVariant designVariant;
+
+      @CanIgnoreReturnValue
+      public @NonNull Builder setDesignVariant(@Nullable DesignVariant setterArg) {
+        this.designVariant = setterArg;
+        return this;
+      }
+
       public @NonNull HostInfo build() {
         HostInfo pigeonReturn = new HostInfo();
         pigeonReturn.setPaymentSystemId(paymentSystemId);
@@ -306,19 +335,21 @@ public class Api {
         pigeonReturn.setPhoneNumber(phoneNumber);
         pigeonReturn.setEnvironment(environment);
         pigeonReturn.setResidentType(residentType);
+        pigeonReturn.setDesignVariant(designVariant);
         return pigeonReturn;
       }
     }
 
     @NonNull
     ArrayList<Object> toList() {
-      ArrayList<Object> toListResult = new ArrayList<Object>(6);
+      ArrayList<Object> toListResult = new ArrayList<Object>(7);
       toListResult.add(paymentSystemId);
       toListResult.add(locale);
       toListResult.add(pinfl);
       toListResult.add(phoneNumber);
       toListResult.add(environment);
       toListResult.add(residentType);
+      toListResult.add(designVariant);
       return toListResult;
     }
 
@@ -336,6 +367,8 @@ public class Api {
       pigeonResult.setEnvironment((ManiEnvironment) environment);
       Object residentType = __pigeon_list.get(5);
       pigeonResult.setResidentType((ManiResidentType) residentType);
+      Object designVariant = __pigeon_list.get(6);
+      pigeonResult.setDesignVariant((DesignVariant) designVariant);
       return pigeonResult;
     }
   }
@@ -358,6 +391,9 @@ public class Api {
         case (byte) 132:
           Object value = readValue(buffer);
           return value == null ? null : ManiResidentType.values()[(int) value];
+        case (byte) 133:
+          Object value = readValue(buffer);
+          return value == null ? null : DesignVariant.values()[(int) value];
         default:
           return super.readValueOfType(type, buffer);
       }
@@ -377,6 +413,9 @@ public class Api {
       } else if (value instanceof ManiResidentType) {
         stream.write(132);
         writeValue(stream, value == null ? null : ((ManiResidentType) value).index);
+      } else if (value instanceof DesignVariant) {
+        stream.write(133);
+        writeValue(stream, value == null ? null : ((DesignVariant) value).index);
       } else {
         super.writeValue(stream, value);
       }

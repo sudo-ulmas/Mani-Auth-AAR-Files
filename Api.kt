@@ -68,6 +68,17 @@ enum class ManiResidentType(val raw: Int) {
   }
 }
 
+enum class DesignVariant(val raw: Int) {
+  MANI(0),
+  SMARTBANK(1);
+
+  companion object {
+    fun ofRaw(raw: Int): DesignVariant? {
+      return values().firstOrNull { it.raw == raw }
+    }
+  }
+}
+
 /** Generated class from Pigeon that represents data sent in messages. */
 data class Token (
   val accessToken: String? = null,
@@ -97,7 +108,8 @@ data class HostInfo (
   val pinfl: String? = null,
   val phoneNumber: String? = null,
   val environment: ManiEnvironment? = null,
-  val residentType: ManiResidentType? = null
+  val residentType: ManiResidentType? = null,
+  val designVariant: DesignVariant? = null
 
 ) {
   companion object {
@@ -109,7 +121,8 @@ data class HostInfo (
       val phoneNumber = __pigeon_list[3] as String?
       val environment = __pigeon_list[4] as ManiEnvironment?
       val residentType = __pigeon_list[5] as ManiResidentType?
-      return HostInfo(paymentSystemId, locale, pinfl, phoneNumber, environment, residentType)
+      val designVariant = __pigeon_list[6] as DesignVariant?
+      return HostInfo(paymentSystemId, locale, pinfl, phoneNumber, environment, residentType, designVariant)
     }
   }
   fun toList(): List<Any?> {
@@ -120,6 +133,7 @@ data class HostInfo (
       phoneNumber,
       environment,
       residentType,
+      designVariant,
     )
   }
 }
@@ -146,6 +160,11 @@ private object ApiPigeonCodec : StandardMessageCodec() {
           ManiResidentType.ofRaw(it)
         }
       }
+      133.toByte() -> {
+        return (readValue(buffer) as Int?)?.let {
+          DesignVariant.ofRaw(it)
+        }
+      }
       else -> super.readValueOfType(type, buffer)
     }
   }
@@ -165,6 +184,10 @@ private object ApiPigeonCodec : StandardMessageCodec() {
       }
       is ManiResidentType -> {
         stream.write(132)
+        writeValue(stream, value.raw)
+      }
+      is DesignVariant -> {
+        stream.write(133)
         writeValue(stream, value.raw)
       }
       else -> super.writeValue(stream, value)

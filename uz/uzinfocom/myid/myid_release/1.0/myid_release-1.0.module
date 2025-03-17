@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "uz.uzinfocom.myid",
+    "module": "myid_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-36335019a8eab588c3c2ea783c618d90505be233"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "myid_release-1.0.aar",
+          "url": "myid_release-1.0.aar",
+          "size": 20913,
+          "sha512": "b4dd7ef87faa5a862ee1871381ccdcb3650fbaaf8c05f8feab7b8d873f49e17b57b63ff3f62f063af537a3695d424f9a0afacfd0daf6911940cdb2c3c7fe70cb",
+          "sha256": "8a8fd3e3a0f45db4dc5a828d9849c279ea8c66ae998d1a687acd6e91156edc33",
+          "sha1": "6721e5bd987a4398edda287ac1397f4fdb8e75d1",
+          "md5": "f08f43aec9eff2ac28f647cb5518f11f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-36335019a8eab588c3c2ea783c618d90505be233"
+          }
+        },
+        {
+          "group": "uz.myid.sdk.capture",
+          "module": "myid-capture-sdk",
+          "version": {
+            "requires": "2.3.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "myid_release-1.0.aar",
+          "url": "myid_release-1.0.aar",
+          "size": 20913,
+          "sha512": "b4dd7ef87faa5a862ee1871381ccdcb3650fbaaf8c05f8feab7b8d873f49e17b57b63ff3f62f063af537a3695d424f9a0afacfd0daf6911940cdb2c3c7fe70cb",
+          "sha256": "8a8fd3e3a0f45db4dc5a828d9849c279ea8c66ae998d1a687acd6e91156edc33",
+          "sha1": "6721e5bd987a4398edda287ac1397f4fdb8e75d1",
+          "md5": "f08f43aec9eff2ac28f647cb5518f11f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "myid_release-1.0-sources.jar",
+          "url": "myid_release-1.0-sources.jar",
+          "size": 5237,
+          "sha512": "70cfaf296cfdd4489500d76ef57c5eda194784109002d9c954b181cb688b0e1c2da606c8f3556dfad7fd4fef2576ded58fec4ec49b16ba4db679e68f1b903e1d",
+          "sha256": "acfe2f2305ff602521ea34beffa43bc8735f42e86ef1e75385760ac566270f50",
+          "sha1": "c81423e6aae9b1ab08d6a43573c020e81d1a7fac",
+          "md5": "b77667a4e48e1167a509744438bbd475"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "myid_release-1.0-javadoc.jar",
+          "url": "myid_release-1.0-javadoc.jar",
+          "size": 285781,
+          "sha512": "2059bb5ca21d0de30b597ea3938d1fba67a67cfe8abdca004183dc572a205162a3cc53aa15c53ebb96e980485dad4e46c296c8bb499e8736c57a1cdeb83f6c15",
+          "sha256": "4992e53c45b13af49417c2a325234478adcf956193f35df91ac81703f0b2db8c",
+          "sha1": "8ee85756a7f423c78381d2693b59fbf6f6e3edd1",
+          "md5": "c54fc4068a1d6166cae61db39ada2ba2"
+        }
+      ]
+    }
+  ]
+}
