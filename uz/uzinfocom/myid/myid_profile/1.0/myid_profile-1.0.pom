@@ -15,7 +15,7 @@
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>flutter_embedding_profile</artifactId>
-      <version>1.0.0-36335019a8eab588c3c2ea783c618d90505be233</version>
+      <version>1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -27,7 +27,7 @@
     <dependency>
       <groupId>uz.myid.sdk.capture</groupId>
       <artifactId>myid-capture-sdk</artifactId>
-      <version>2.3.7</version>
+      <version>2.4.1</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>
