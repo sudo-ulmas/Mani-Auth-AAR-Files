@@ -70,7 +70,7 @@
           "group": "uz.myid.sdk.capture",
           "module": "myid-capture-sdk",
           "version": {
-            "requires": "2.4.1"
+            "requires": "2.4.3"
           }
         },
         {
