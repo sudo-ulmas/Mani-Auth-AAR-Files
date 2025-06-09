@@ -42,11 +42,11 @@
         {
           "name": "myid_debug-1.0.aar",
           "url": "myid_debug-1.0.aar",
-          "size": 16952,
-          "sha512": "9be8a1593838be340c57cab1d4dbd0435b82c1ab29c10b2e7b0038a41cf4fc5daa29b97d81efda84848ccc9df6eada1370305c9d9e05d040d401928bd0713657",
-          "sha256": "e2eef5c84cca156f04dab618721f986dde65a46cefc41707967b7866dcfe737c",
-          "sha1": "79fe95823120191cab717d7b3d44549266be52d3",
-          "md5": "d081c69a7dd4a671d0ec22f35de33634"
+          "size": 17010,
+          "sha512": "bc471c603752658a200c1b0d384d7b09a6b577016453ac89fe3b2abdc4bc5b0cf4f72e601454498ee4e1d2daf440a526dac52576fdaafccb3c9d9c84bb4f05dc",
+          "sha256": "af800b4f38d1a1a6c5d2baa14991ec61872a3121652c8393aa5015c75341f10a",
+          "sha1": "3bd82fe00be82bfab599323b6d8fc4da0f79c18e",
+          "md5": "6eba5d3cbfac772ee7bbda37ed892bd9"
         }
       ]
     },
@@ -70,7 +70,7 @@
           "group": "uz.myid.sdk.capture",
           "module": "myid-capture-sdk",
           "version": {
-            "requires": "2.4.3"
+            "requires": "2.4.4"
           }
         },
         {
@@ -85,11 +85,11 @@
         {
           "name": "myid_debug-1.0.aar",
           "url": "myid_debug-1.0.aar",
-          "size": 16952,
-          "sha512": "9be8a1593838be340c57cab1d4dbd0435b82c1ab29c10b2e7b0038a41cf4fc5daa29b97d81efda84848ccc9df6eada1370305c9d9e05d040d401928bd0713657",
-          "sha256": "e2eef5c84cca156f04dab618721f986dde65a46cefc41707967b7866dcfe737c",
-          "sha1": "79fe95823120191cab717d7b3d44549266be52d3",
-          "md5": "d081c69a7dd4a671d0ec22f35de33634"
+          "size": 17010,
+          "sha512": "bc471c603752658a200c1b0d384d7b09a6b577016453ac89fe3b2abdc4bc5b0cf4f72e601454498ee4e1d2daf440a526dac52576fdaafccb3c9d9c84bb4f05dc",
+          "sha256": "af800b4f38d1a1a6c5d2baa14991ec61872a3121652c8393aa5015c75341f10a",
+          "sha1": "3bd82fe00be82bfab599323b6d8fc4da0f79c18e",
+          "md5": "6eba5d3cbfac772ee7bbda37ed892bd9"
         }
       ]
     },
@@ -105,11 +105,11 @@
         {
           "name": "myid_debug-1.0-sources.jar",
           "url": "myid_debug-1.0-sources.jar",
-          "size": 4896,
-          "sha512": "efb4bb172f5e1489f46764e0c7dfabd36cab209c157f4603c5589b6c89f358fa9f5a00ca6657970f205a9bb193fbc1153496d2b705eb4a9de2922a9ab17107aa",
-          "sha256": "29833a2cef7dff53f1d25adacfe3b564d6b142b409be7df4476b808a28016811",
-          "sha1": "dc5b65043b40612029166150067178e42cf6f932",
-          "md5": "f97504f9578f34fda7290a618eeb552e"
+          "size": 4922,
+          "sha512": "f18705ed4ae1fc7d3fa8e00adc5af3f26a5898398d6d34f4f2a9529a7681fb73c9b7284acd5de6e762c92bb067dfca773007b1157ee469dcc7114e153b5fb962",
+          "sha256": "8a56adebd97250d35477b33b5e82c794faabfdc04873c74efc38e7bbeb8439a7",
+          "sha1": "dbf89de8c1915656051966ded3515dc54bf00ad6",
+          "md5": "f07251c88ac7eb1b0c25cfa032990e81"
         }
       ]
     },

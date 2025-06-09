@@ -42,11 +42,11 @@
         {
           "name": "myid_release-1.0.aar",
           "url": "myid_release-1.0.aar",
-          "size": 16280,
-          "sha512": "997d6f6f591cd0534d381585a3b10578f920144c78b5956b201a7e29842d7a13aa86165e6015a0373f81b00b10d93f01d8aff7de6fba004be77d893e28c9587e",
-          "sha256": "d5fa0dd58fb336851a85a8f252ee7acb0791f0db116968097d7ee94bb7ce4b09",
-          "sha1": "cce6558da431e362a1b3cd6e29821047b0641535",
-          "md5": "6bfa53d646809ec16394b9e6064075f5"
+          "size": 16341,
+          "sha512": "4c55f3c52b7245f6dc3de81863bb862667198b314ae9501f804622143bad0e1a0e319d1ffe8199767f0fce8578ea907abf6497f7b1d260bdbc28c6987e62c9bd",
+          "sha256": "9525962630bc4693945a02306961269ae89f46f9ef4b288ed3807b15699c31ee",
+          "sha1": "c846cbd88aeecb78e8cfea9ded732d2e4777b5bf",
+          "md5": "6874a768391e9151c6702d96a2ab24ad"
         }
       ]
     },
@@ -70,7 +70,7 @@
           "group": "uz.myid.sdk.capture",
           "module": "myid-capture-sdk",
           "version": {
-            "requires": "2.4.3"
+            "requires": "2.4.4"
           }
         },
         {
@@ -85,11 +85,11 @@
         {
           "name": "myid_release-1.0.aar",
           "url": "myid_release-1.0.aar",
-          "size": 16280,
-          "sha512": "997d6f6f591cd0534d381585a3b10578f920144c78b5956b201a7e29842d7a13aa86165e6015a0373f81b00b10d93f01d8aff7de6fba004be77d893e28c9587e",
-          "sha256": "d5fa0dd58fb336851a85a8f252ee7acb0791f0db116968097d7ee94bb7ce4b09",
-          "sha1": "cce6558da431e362a1b3cd6e29821047b0641535",
-          "md5": "6bfa53d646809ec16394b9e6064075f5"
+          "size": 16341,
+          "sha512": "4c55f3c52b7245f6dc3de81863bb862667198b314ae9501f804622143bad0e1a0e319d1ffe8199767f0fce8578ea907abf6497f7b1d260bdbc28c6987e62c9bd",
+          "sha256": "9525962630bc4693945a02306961269ae89f46f9ef4b288ed3807b15699c31ee",
+          "sha1": "c846cbd88aeecb78e8cfea9ded732d2e4777b5bf",
+          "md5": "6874a768391e9151c6702d96a2ab24ad"
         }
       ]
     },
@@ -105,11 +105,11 @@
         {
           "name": "myid_release-1.0-sources.jar",
           "url": "myid_release-1.0-sources.jar",
-          "size": 4896,
-          "sha512": "efb4bb172f5e1489f46764e0c7dfabd36cab209c157f4603c5589b6c89f358fa9f5a00ca6657970f205a9bb193fbc1153496d2b705eb4a9de2922a9ab17107aa",
-          "sha256": "29833a2cef7dff53f1d25adacfe3b564d6b142b409be7df4476b808a28016811",
-          "sha1": "dc5b65043b40612029166150067178e42cf6f932",
-          "md5": "f97504f9578f34fda7290a618eeb552e"
+          "size": 4922,
+          "sha512": "f18705ed4ae1fc7d3fa8e00adc5af3f26a5898398d6d34f4f2a9529a7681fb73c9b7284acd5de6e762c92bb067dfca773007b1157ee469dcc7114e153b5fb962",
+          "sha256": "8a56adebd97250d35477b33b5e82c794faabfdc04873c74efc38e7bbeb8439a7",
+          "sha1": "dbf89de8c1915656051966ded3515dc54bf00ad6",
+          "md5": "f07251c88ac7eb1b0c25cfa032990e81"
         }
       ]
     },

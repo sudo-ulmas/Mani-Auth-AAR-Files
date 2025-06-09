@@ -42,11 +42,11 @@
         {
           "name": "myid_profile-1.0.aar",
           "url": "myid_profile-1.0.aar",
-          "size": 16286,
-          "sha512": "021c825af337c6d30b896d473900f244e60d60a7d7df1939fc6a8d0a70f0e77ea85c40d33b0ca716b6cdde96d32ea867067027ea187d55414dea31b3acd27672",
-          "sha256": "74c56f4aea963b9fb82a64926214b2d9dc4ed6520583200bf5756484bdcfa82a",
-          "sha1": "e66a171e2206e56a27d688cb89536a6960ec6af0",
-          "md5": "cb9d5690fe5f90348b9af35f316e5a47"
+          "size": 16351,
+          "sha512": "9bc3cd03da8ec1b9042176aed875a34ace24fa34bc94d8a4aa64bd47349863c1d5d216313024cbf801e990ec3abc7a6e7893cd82b043235e68963133ca5698f5",
+          "sha256": "edfe8ee02dba2ff2d9e2229db7cf8e07584de1c9f77d0b201bef16ae34cc25f1",
+          "sha1": "cd0e50d1182b36b46b17553749a9e977af49d254",
+          "md5": "5d5e7a661aa9de1efc7a5f911eef9767"
         }
       ]
     },
@@ -70,7 +70,7 @@
           "group": "uz.myid.sdk.capture",
           "module": "myid-capture-sdk",
           "version": {
-            "requires": "2.4.3"
+            "requires": "2.4.4"
           }
         },
         {
@@ -85,11 +85,11 @@
         {
           "name": "myid_profile-1.0.aar",
           "url": "myid_profile-1.0.aar",
-          "size": 16286,
-          "sha512": "021c825af337c6d30b896d473900f244e60d60a7d7df1939fc6a8d0a70f0e77ea85c40d33b0ca716b6cdde96d32ea867067027ea187d55414dea31b3acd27672",
-          "sha256": "74c56f4aea963b9fb82a64926214b2d9dc4ed6520583200bf5756484bdcfa82a",
-          "sha1": "e66a171e2206e56a27d688cb89536a6960ec6af0",
-          "md5": "cb9d5690fe5f90348b9af35f316e5a47"
+          "size": 16351,
+          "sha512": "9bc3cd03da8ec1b9042176aed875a34ace24fa34bc94d8a4aa64bd47349863c1d5d216313024cbf801e990ec3abc7a6e7893cd82b043235e68963133ca5698f5",
+          "sha256": "edfe8ee02dba2ff2d9e2229db7cf8e07584de1c9f77d0b201bef16ae34cc25f1",
+          "sha1": "cd0e50d1182b36b46b17553749a9e977af49d254",
+          "md5": "5d5e7a661aa9de1efc7a5f911eef9767"
         }
       ]
     },
@@ -105,11 +105,11 @@
         {
           "name": "myid_profile-1.0-sources.jar",
           "url": "myid_profile-1.0-sources.jar",
-          "size": 4896,
-          "sha512": "efb4bb172f5e1489f46764e0c7dfabd36cab209c157f4603c5589b6c89f358fa9f5a00ca6657970f205a9bb193fbc1153496d2b705eb4a9de2922a9ab17107aa",
-          "sha256": "29833a2cef7dff53f1d25adacfe3b564d6b142b409be7df4476b808a28016811",
-          "sha1": "dc5b65043b40612029166150067178e42cf6f932",
-          "md5": "f97504f9578f34fda7290a618eeb552e"
+          "size": 4922,
+          "sha512": "f18705ed4ae1fc7d3fa8e00adc5af3f26a5898398d6d34f4f2a9529a7681fb73c9b7284acd5de6e762c92bb067dfca773007b1157ee469dcc7114e153b5fb962",
+          "sha256": "8a56adebd97250d35477b33b5e82c794faabfdc04873c74efc38e7bbeb8439a7",
+          "sha1": "dbf89de8c1915656051966ded3515dc54bf00ad6",
+          "md5": "f07251c88ac7eb1b0c25cfa032990e81"
         }
       ]
     },
