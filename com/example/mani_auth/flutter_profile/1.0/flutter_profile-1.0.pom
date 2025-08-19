@@ -15,25 +15,25 @@
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>flutter_embedding_profile</artifactId>
-      <version>1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434</version>
+      <version>1.0.0-1e9a811bf8e70466596bcf0ea3a8b5adb5f17f7f</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>armeabi_v7a_profile</artifactId>
-      <version>1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434</version>
+      <version>1.0.0-1e9a811bf8e70466596bcf0ea3a8b5adb5f17f7f</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>arm64_v8a_profile</artifactId>
-      <version>1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434</version>
+      <version>1.0.0-1e9a811bf8e70466596bcf0ea3a8b5adb5f17f7f</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>x86_64_profile</artifactId>
-      <version>1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434</version>
+      <version>1.0.0-1e9a811bf8e70466596bcf0ea3a8b5adb5f17f7f</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
