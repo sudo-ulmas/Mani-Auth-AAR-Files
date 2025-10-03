@@ -42,11 +42,11 @@
         {
           "name": "myid_debug-1.0.aar",
           "url": "myid_debug-1.0.aar",
-          "size": 18244,
-          "sha512": "1701de1514aa3c0661f5b219aec6b908e00189b806d638bfacad089f43f28b60d9147eedd4b292ca0e3b0d363225bf8d6aaeceec721052d5ad9ba07604b1b35b",
-          "sha256": "49e4ecb69de0939252accb7b6217e50d04d22ba4299a584862b400e99d07f7ab",
-          "sha1": "67c5ac5822a1994f9150a18d700fbc4935b67d0d",
-          "md5": "a573265df2d046d86c23a393f7d4738f"
+          "size": 17583,
+          "sha512": "6ff0bdb8c561593fff8c9e975f18dfd7278ee4ffcf155231426b97c20de61ff80549bdffe8fbc641ed034abf2c386f5f9c4283766dbb5f8250cef04498988ab1",
+          "sha256": "addcabfd4ad7bd2b809cc5b63d60db991b5e9d305a3abb90c9369737cbfcb910",
+          "sha1": "4c01b77bf48c7cc1420782a1d485a5a241fe4622",
+          "md5": "05c6b2cab45d0b4d282b37825715cbfb"
         }
       ]
     },
@@ -60,17 +60,17 @@
       },
       "dependencies": [
         {
+          "group": "uz.myid.sdk.capture",
+          "module": "myid-capture-sdk-debug",
+          "version": {
+            "requires": "3.1.1"
+          }
+        },
+        {
           "group": "io.flutter",
           "module": "flutter_embedding_debug",
           "version": {
             "requires": "1.0.0-1e9a811bf8e70466596bcf0ea3a8b5adb5f17f7f"
-          }
-        },
-        {
-          "group": "uz.myid.sdk.capture",
-          "module": "myid-capture-sdk",
-          "version": {
-            "requires": "2.4.8"
           }
         },
         {
@@ -85,11 +85,11 @@
         {
           "name": "myid_debug-1.0.aar",
           "url": "myid_debug-1.0.aar",
-          "size": 18244,
-          "sha512": "1701de1514aa3c0661f5b219aec6b908e00189b806d638bfacad089f43f28b60d9147eedd4b292ca0e3b0d363225bf8d6aaeceec721052d5ad9ba07604b1b35b",
-          "sha256": "49e4ecb69de0939252accb7b6217e50d04d22ba4299a584862b400e99d07f7ab",
-          "sha1": "67c5ac5822a1994f9150a18d700fbc4935b67d0d",
-          "md5": "a573265df2d046d86c23a393f7d4738f"
+          "size": 17583,
+          "sha512": "6ff0bdb8c561593fff8c9e975f18dfd7278ee4ffcf155231426b97c20de61ff80549bdffe8fbc641ed034abf2c386f5f9c4283766dbb5f8250cef04498988ab1",
+          "sha256": "addcabfd4ad7bd2b809cc5b63d60db991b5e9d305a3abb90c9369737cbfcb910",
+          "sha1": "4c01b77bf48c7cc1420782a1d485a5a241fe4622",
+          "md5": "05c6b2cab45d0b4d282b37825715cbfb"
         }
       ]
     },
@@ -105,11 +105,11 @@
         {
           "name": "myid_debug-1.0-sources.jar",
           "url": "myid_debug-1.0-sources.jar",
-          "size": 5128,
-          "sha512": "04e4f3cb6b2677aa90088ea068d01b41ad0b977dbcec428011e9b16390438ec3168e2dcf749a9d52745e5e7a80856be7c16a1e8e6ebc55b9b0b5eb83a28158ac",
-          "sha256": "5367c80faa3cb44533655d32627f62590beb3f7588216737be18b930d369e121",
-          "sha1": "ecb3a7f7d92bda147754f35a38c140fbf4a9877a",
-          "md5": "92c68f780ff33089eedb439f718c0482"
+          "size": 5024,
+          "sha512": "8bfca27fe63e60f5900c6240c513a86aff730822a60a4888f3b645516a7b0915789ea856aa09024c0526f955a2592f2289699de0867f3ca301f17f93080bab05",
+          "sha256": "a66ff14835924260b7b481a63ada8baf225d7c807b95bac9f3341497cd8b84fc",
+          "sha1": "42956ae96bec056d53d13d309a7d4abc45292fb2",
+          "md5": "00e3a2e2c41c8cb2f9921d627b3ab4c6"
         }
       ]
     },
@@ -125,11 +125,11 @@
         {
           "name": "myid_debug-1.0-javadoc.jar",
           "url": "myid_debug-1.0-javadoc.jar",
-          "size": 277147,
-          "sha512": "2c6dba2869bfbacec20a47555ef06d8322a7481b86312be75a4ff9461a151a3ccd66767e6ab42be479d5dc6b0d4b89a09443f9f27d9671ec8f1f8ee81b57ed3c",
-          "sha256": "484316d0976d0956ec9685c5fa3fbb940214c306e7971381a4c85addfa2dddb4",
-          "sha1": "876b6a92fe4b35e27b41d8646aed05191f1f21de",
-          "md5": "d2cf2d5494e263d9bde784f2dea9484a"
+          "size": 277000,
+          "sha512": "9d3f96af0880270ab9a270c470b474994902be1f2c3fe82a1fbd9dc4533cf531f382e69fa79824de492c6d38db994d0b32248c2ba5659632ed2aa2063d57d88a",
+          "sha256": "8b2b52f9873bab2412f4868daea1a12ebbe2c8eaf693723a590390499d9afa46",
+          "sha1": "b99b9af321db97078e38f7623036e8c6c03add31",
+          "md5": "c133a8ad7a67c6bf013f22b9fb55e10f"
         }
       ]
     }

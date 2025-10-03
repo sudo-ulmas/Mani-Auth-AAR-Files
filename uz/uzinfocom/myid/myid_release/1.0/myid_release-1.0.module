@@ -42,11 +42,11 @@
         {
           "name": "myid_release-1.0.aar",
           "url": "myid_release-1.0.aar",
-          "size": 17504,
-          "sha512": "c69437c18481bcb1bcf46a7b3318f28af7c9ed17cd8d495a1af879412bf3f319761b6194ea415354537857a7c6768d23e10c23626fdb83f0b532bb002c1de198",
-          "sha256": "f83c2132ae2f74fb7f4add5de82cf9cd51e195c9326bb4a6c490c48ca6ed9712",
-          "sha1": "b1905a617d5ace0b3a93a528c6180e6eb152df5a",
-          "md5": "6c832bd1df166877fd480373fa9078da"
+          "size": 16928,
+          "sha512": "219396ef1bce8edf6c52e0c519492e8d4c71d922969612a14c9c6c32003a8fc0e421e5807a75b57969773fc7a70236fc147e3146b6a6a0e5e7f45b05973c71b3",
+          "sha256": "9913de98de6ca816cc901a58852262d285175911dbd8b3675bf8e428062c7c4a",
+          "sha1": "16c1b7ef89fc2256b41afd3262c62aed1ca05dfd",
+          "md5": "158d191ae3940c4189df9a934e6de7ac"
         }
       ]
     },
@@ -60,17 +60,17 @@
       },
       "dependencies": [
         {
+          "group": "uz.myid.sdk.capture",
+          "module": "myid-capture-sdk",
+          "version": {
+            "requires": "3.1.1"
+          }
+        },
+        {
           "group": "io.flutter",
           "module": "flutter_embedding_release",
           "version": {
             "requires": "1.0.0-1e9a811bf8e70466596bcf0ea3a8b5adb5f17f7f"
-          }
-        },
-        {
-          "group": "uz.myid.sdk.capture",
-          "module": "myid-capture-sdk",
-          "version": {
-            "requires": "2.4.8"
           }
         },
         {
@@ -85,11 +85,11 @@
         {
           "name": "myid_release-1.0.aar",
           "url": "myid_release-1.0.aar",
-          "size": 17504,
-          "sha512": "c69437c18481bcb1bcf46a7b3318f28af7c9ed17cd8d495a1af879412bf3f319761b6194ea415354537857a7c6768d23e10c23626fdb83f0b532bb002c1de198",
-          "sha256": "f83c2132ae2f74fb7f4add5de82cf9cd51e195c9326bb4a6c490c48ca6ed9712",
-          "sha1": "b1905a617d5ace0b3a93a528c6180e6eb152df5a",
-          "md5": "6c832bd1df166877fd480373fa9078da"
+          "size": 16928,
+          "sha512": "219396ef1bce8edf6c52e0c519492e8d4c71d922969612a14c9c6c32003a8fc0e421e5807a75b57969773fc7a70236fc147e3146b6a6a0e5e7f45b05973c71b3",
+          "sha256": "9913de98de6ca816cc901a58852262d285175911dbd8b3675bf8e428062c7c4a",
+          "sha1": "16c1b7ef89fc2256b41afd3262c62aed1ca05dfd",
+          "md5": "158d191ae3940c4189df9a934e6de7ac"
         }
       ]
     },
@@ -105,11 +105,11 @@
         {
           "name": "myid_release-1.0-sources.jar",
           "url": "myid_release-1.0-sources.jar",
-          "size": 5128,
-          "sha512": "04e4f3cb6b2677aa90088ea068d01b41ad0b977dbcec428011e9b16390438ec3168e2dcf749a9d52745e5e7a80856be7c16a1e8e6ebc55b9b0b5eb83a28158ac",
-          "sha256": "5367c80faa3cb44533655d32627f62590beb3f7588216737be18b930d369e121",
-          "sha1": "ecb3a7f7d92bda147754f35a38c140fbf4a9877a",
-          "md5": "92c68f780ff33089eedb439f718c0482"
+          "size": 5024,
+          "sha512": "8bfca27fe63e60f5900c6240c513a86aff730822a60a4888f3b645516a7b0915789ea856aa09024c0526f955a2592f2289699de0867f3ca301f17f93080bab05",
+          "sha256": "a66ff14835924260b7b481a63ada8baf225d7c807b95bac9f3341497cd8b84fc",
+          "sha1": "42956ae96bec056d53d13d309a7d4abc45292fb2",
+          "md5": "00e3a2e2c41c8cb2f9921d627b3ab4c6"
         }
       ]
     },
@@ -125,11 +125,11 @@
         {
           "name": "myid_release-1.0-javadoc.jar",
           "url": "myid_release-1.0-javadoc.jar",
-          "size": 277147,
-          "sha512": "2c6dba2869bfbacec20a47555ef06d8322a7481b86312be75a4ff9461a151a3ccd66767e6ab42be479d5dc6b0d4b89a09443f9f27d9671ec8f1f8ee81b57ed3c",
-          "sha256": "484316d0976d0956ec9685c5fa3fbb940214c306e7971381a4c85addfa2dddb4",
-          "sha1": "876b6a92fe4b35e27b41d8646aed05191f1f21de",
-          "md5": "d2cf2d5494e263d9bde784f2dea9484a"
+          "size": 277000,
+          "sha512": "9d3f96af0880270ab9a270c470b474994902be1f2c3fe82a1fbd9dc4533cf531f382e69fa79824de492c6d38db994d0b32248c2ba5659632ed2aa2063d57d88a",
+          "sha256": "8b2b52f9873bab2412f4868daea1a12ebbe2c8eaf693723a590390499d9afa46",
+          "sha1": "b99b9af321db97078e38f7623036e8c6c03add31",
+          "md5": "c133a8ad7a67c6bf013f22b9fb55e10f"
         }
       ]
     }
