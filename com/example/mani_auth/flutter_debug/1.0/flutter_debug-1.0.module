@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "8.12"
+      "version": "8.13"
     }
   },
   "variants": [
@@ -27,28 +27,28 @@
           "group": "io.flutter",
           "module": "flutter_embedding_debug",
           "version": {
-            "requires": "1.0.0-1e9a811bf8e70466596bcf0ea3a8b5adb5f17f7f"
+            "requires": "1.0.0-035316565ad77281a75305515e4682e6c4c6f7ca"
           }
         },
         {
           "group": "io.flutter",
           "module": "armeabi_v7a_debug",
           "version": {
-            "requires": "1.0.0-1e9a811bf8e70466596bcf0ea3a8b5adb5f17f7f"
+            "requires": "1.0.0-035316565ad77281a75305515e4682e6c4c6f7ca"
           }
         },
         {
           "group": "io.flutter",
           "module": "arm64_v8a_debug",
           "version": {
-            "requires": "1.0.0-1e9a811bf8e70466596bcf0ea3a8b5adb5f17f7f"
+            "requires": "1.0.0-035316565ad77281a75305515e4682e6c4c6f7ca"
           }
         },
         {
           "group": "io.flutter",
           "module": "x86_64_debug",
           "version": {
-            "requires": "1.0.0-1e9a811bf8e70466596bcf0ea3a8b5adb5f17f7f"
+            "requires": "1.0.0-035316565ad77281a75305515e4682e6c4c6f7ca"
           }
         },
         {
@@ -63,11 +63,11 @@
         {
           "name": "flutter_debug-1.0.aar",
           "url": "flutter_debug-1.0.aar",
-          "size": 22698467,
-          "sha512": "2f6f64eab46dd09f45d7241fcf969fef19287066a9e2c7b01f5321fa261d325e20cd0804cc024553228bd9d2bb11017280f48cbb064b4d8619ac8f8fe9e3726f",
-          "sha256": "fa73fea57684a8709f025e888d21c2c211ce321d82c551f3e89bf06af4ede782",
-          "sha1": "c70c969152d2fde6f7b10f4f83b04490888fe467",
-          "md5": "58ab62d577d977a3f7d7893742867bac"
+          "size": 22700582,
+          "sha512": "c16fd5e6b51f71ac58e24ee700f4cbec42bea0a9ae4d39a1fa7048d7de500464561f04c1d3954a3c2d125dcf8317b262925660caee9736faae7958666d951600",
+          "sha256": "8de08d032004eec95ab6324c951a0c150a66a703d2daee3599c7c9441ba2b534",
+          "sha1": "2a9839a05f4929c13d096af3cb65902d2e1e84c2",
+          "md5": "28bcb71bf3141dbaf6b2b5e54a5bb29e"
         }
       ]
     },
@@ -84,28 +84,28 @@
           "group": "io.flutter",
           "module": "flutter_embedding_debug",
           "version": {
-            "requires": "1.0.0-1e9a811bf8e70466596bcf0ea3a8b5adb5f17f7f"
+            "requires": "1.0.0-035316565ad77281a75305515e4682e6c4c6f7ca"
           }
         },
         {
           "group": "io.flutter",
           "module": "armeabi_v7a_debug",
           "version": {
-            "requires": "1.0.0-1e9a811bf8e70466596bcf0ea3a8b5adb5f17f7f"
+            "requires": "1.0.0-035316565ad77281a75305515e4682e6c4c6f7ca"
           }
         },
         {
           "group": "io.flutter",
           "module": "arm64_v8a_debug",
           "version": {
-            "requires": "1.0.0-1e9a811bf8e70466596bcf0ea3a8b5adb5f17f7f"
+            "requires": "1.0.0-035316565ad77281a75305515e4682e6c4c6f7ca"
           }
         },
         {
           "group": "io.flutter",
           "module": "x86_64_debug",
           "version": {
-            "requires": "1.0.0-1e9a811bf8e70466596bcf0ea3a8b5adb5f17f7f"
+            "requires": "1.0.0-035316565ad77281a75305515e4682e6c4c6f7ca"
           }
         },
         {
@@ -120,11 +120,11 @@
         {
           "name": "flutter_debug-1.0.aar",
           "url": "flutter_debug-1.0.aar",
-          "size": 22698467,
-          "sha512": "2f6f64eab46dd09f45d7241fcf969fef19287066a9e2c7b01f5321fa261d325e20cd0804cc024553228bd9d2bb11017280f48cbb064b4d8619ac8f8fe9e3726f",
-          "sha256": "fa73fea57684a8709f025e888d21c2c211ce321d82c551f3e89bf06af4ede782",
-          "sha1": "c70c969152d2fde6f7b10f4f83b04490888fe467",
-          "md5": "58ab62d577d977a3f7d7893742867bac"
+          "size": 22700582,
+          "sha512": "c16fd5e6b51f71ac58e24ee700f4cbec42bea0a9ae4d39a1fa7048d7de500464561f04c1d3954a3c2d125dcf8317b262925660caee9736faae7958666d951600",
+          "sha256": "8de08d032004eec95ab6324c951a0c150a66a703d2daee3599c7c9441ba2b534",
+          "sha1": "2a9839a05f4929c13d096af3cb65902d2e1e84c2",
+          "md5": "28bcb71bf3141dbaf6b2b5e54a5bb29e"
         }
       ]
     },
