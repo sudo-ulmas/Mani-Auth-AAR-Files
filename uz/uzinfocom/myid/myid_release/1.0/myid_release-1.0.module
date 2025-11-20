@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "8.13"
+      "version": "8.12"
     }
   },
   "variants": [
@@ -42,11 +42,11 @@
         {
           "name": "myid_release-1.0.aar",
           "url": "myid_release-1.0.aar",
-          "size": 16928,
-          "sha512": "219396ef1bce8edf6c52e0c519492e8d4c71d922969612a14c9c6c32003a8fc0e421e5807a75b57969773fc7a70236fc147e3146b6a6a0e5e7f45b05973c71b3",
-          "sha256": "9913de98de6ca816cc901a58852262d285175911dbd8b3675bf8e428062c7c4a",
-          "sha1": "16c1b7ef89fc2256b41afd3262c62aed1ca05dfd",
-          "md5": "158d191ae3940c4189df9a934e6de7ac"
+          "size": 16998,
+          "sha512": "f3a67284461c6c9d8a3a25dd768f526790c6348f2ebf16028ff1eec716ca3b98d980d1ec63e8dbc9d2a1a803588882f574322bdb24ed2767c04debaed013f1e7",
+          "sha256": "33ed61cbbf29186cfbf0951b8bd6aeaea0ca65eb86b537e742741216e8b94e27",
+          "sha1": "0ddf26894a1930e18b99a093e81e80e7c2fae6ee",
+          "md5": "3e56601257dda4630bbf285daf70eb6f"
         }
       ]
     },
@@ -63,7 +63,7 @@
           "group": "uz.myid.sdk.capture",
           "module": "myid-capture-sdk",
           "version": {
-            "requires": "3.1.1"
+            "requires": "3.1.3"
           }
         },
         {
@@ -85,11 +85,11 @@
         {
           "name": "myid_release-1.0.aar",
           "url": "myid_release-1.0.aar",
-          "size": 16928,
-          "sha512": "219396ef1bce8edf6c52e0c519492e8d4c71d922969612a14c9c6c32003a8fc0e421e5807a75b57969773fc7a70236fc147e3146b6a6a0e5e7f45b05973c71b3",
-          "sha256": "9913de98de6ca816cc901a58852262d285175911dbd8b3675bf8e428062c7c4a",
-          "sha1": "16c1b7ef89fc2256b41afd3262c62aed1ca05dfd",
-          "md5": "158d191ae3940c4189df9a934e6de7ac"
+          "size": 16998,
+          "sha512": "f3a67284461c6c9d8a3a25dd768f526790c6348f2ebf16028ff1eec716ca3b98d980d1ec63e8dbc9d2a1a803588882f574322bdb24ed2767c04debaed013f1e7",
+          "sha256": "33ed61cbbf29186cfbf0951b8bd6aeaea0ca65eb86b537e742741216e8b94e27",
+          "sha1": "0ddf26894a1930e18b99a093e81e80e7c2fae6ee",
+          "md5": "3e56601257dda4630bbf285daf70eb6f"
         }
       ]
     },
@@ -105,11 +105,11 @@
         {
           "name": "myid_release-1.0-sources.jar",
           "url": "myid_release-1.0-sources.jar",
-          "size": 5024,
-          "sha512": "8bfca27fe63e60f5900c6240c513a86aff730822a60a4888f3b645516a7b0915789ea856aa09024c0526f955a2592f2289699de0867f3ca301f17f93080bab05",
-          "sha256": "a66ff14835924260b7b481a63ada8baf225d7c807b95bac9f3341497cd8b84fc",
-          "sha1": "42956ae96bec056d53d13d309a7d4abc45292fb2",
-          "md5": "00e3a2e2c41c8cb2f9921d627b3ab4c6"
+          "size": 5049,
+          "sha512": "2e34b7620f8f5115a4f126606fa80f93246d9093c40c09593f6ecbb7e72a568ac27efedf678bb0f7599eee36728b40cff5c2182fa0048ad179a5573f4223bed5",
+          "sha256": "e927cf60c11a5d5f300fc73511c38461915c05bc73d22e1daca638bef55f93ab",
+          "sha1": "53c9efff1cd3cbd54f54ed184b67545830a3204c",
+          "md5": "34d297544b2483a35bd3b869f667f240"
         }
       ]
     },

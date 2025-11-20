@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "8.13"
+      "version": "8.12"
     }
   },
   "variants": [
@@ -42,11 +42,11 @@
         {
           "name": "myid_debug-1.0.aar",
           "url": "myid_debug-1.0.aar",
-          "size": 17583,
-          "sha512": "6ff0bdb8c561593fff8c9e975f18dfd7278ee4ffcf155231426b97c20de61ff80549bdffe8fbc641ed034abf2c386f5f9c4283766dbb5f8250cef04498988ab1",
-          "sha256": "addcabfd4ad7bd2b809cc5b63d60db991b5e9d305a3abb90c9369737cbfcb910",
-          "sha1": "4c01b77bf48c7cc1420782a1d485a5a241fe4622",
-          "md5": "05c6b2cab45d0b4d282b37825715cbfb"
+          "size": 17664,
+          "sha512": "6fe74851cd27383c671da95b53d81028e93c053db0b498b355ed473665ee5289bac4a5c572f70a465baf96c8da66bb72efb4ec5a1a3d18104a98e74bb781f658",
+          "sha256": "19e809ee037440e2623d06e8e651a54a0655e40ee4a840f20ea363079751d78f",
+          "sha1": "f9627e3bc87a0fea0c5ad421ed3bf9304775fdd4",
+          "md5": "604479f39c2d8950c4272c6862688d49"
         }
       ]
     },
@@ -63,7 +63,7 @@
           "group": "uz.myid.sdk.capture",
           "module": "myid-capture-sdk-debug",
           "version": {
-            "requires": "3.1.1"
+            "requires": "3.1.3"
           }
         },
         {
@@ -85,11 +85,11 @@
         {
           "name": "myid_debug-1.0.aar",
           "url": "myid_debug-1.0.aar",
-          "size": 17583,
-          "sha512": "6ff0bdb8c561593fff8c9e975f18dfd7278ee4ffcf155231426b97c20de61ff80549bdffe8fbc641ed034abf2c386f5f9c4283766dbb5f8250cef04498988ab1",
-          "sha256": "addcabfd4ad7bd2b809cc5b63d60db991b5e9d305a3abb90c9369737cbfcb910",
-          "sha1": "4c01b77bf48c7cc1420782a1d485a5a241fe4622",
-          "md5": "05c6b2cab45d0b4d282b37825715cbfb"
+          "size": 17664,
+          "sha512": "6fe74851cd27383c671da95b53d81028e93c053db0b498b355ed473665ee5289bac4a5c572f70a465baf96c8da66bb72efb4ec5a1a3d18104a98e74bb781f658",
+          "sha256": "19e809ee037440e2623d06e8e651a54a0655e40ee4a840f20ea363079751d78f",
+          "sha1": "f9627e3bc87a0fea0c5ad421ed3bf9304775fdd4",
+          "md5": "604479f39c2d8950c4272c6862688d49"
         }
       ]
     },
@@ -105,11 +105,11 @@
         {
           "name": "myid_debug-1.0-sources.jar",
           "url": "myid_debug-1.0-sources.jar",
-          "size": 5024,
-          "sha512": "8bfca27fe63e60f5900c6240c513a86aff730822a60a4888f3b645516a7b0915789ea856aa09024c0526f955a2592f2289699de0867f3ca301f17f93080bab05",
-          "sha256": "a66ff14835924260b7b481a63ada8baf225d7c807b95bac9f3341497cd8b84fc",
-          "sha1": "42956ae96bec056d53d13d309a7d4abc45292fb2",
-          "md5": "00e3a2e2c41c8cb2f9921d627b3ab4c6"
+          "size": 5049,
+          "sha512": "2e34b7620f8f5115a4f126606fa80f93246d9093c40c09593f6ecbb7e72a568ac27efedf678bb0f7599eee36728b40cff5c2182fa0048ad179a5573f4223bed5",
+          "sha256": "e927cf60c11a5d5f300fc73511c38461915c05bc73d22e1daca638bef55f93ab",
+          "sha1": "53c9efff1cd3cbd54f54ed184b67545830a3204c",
+          "md5": "34d297544b2483a35bd3b869f667f240"
         }
       ]
     },

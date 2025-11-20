@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "uz.uzinfocom.myid",
+    "module": "myid_profile",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-035316565ad77281a75305515e4682e6c4c6f7ca"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "myid_profile-1.0.aar",
+          "url": "myid_profile-1.0.aar",
+          "size": 17009,
+          "sha512": "d6719100c0b7f328e24da80f7affb0cb31c9bff56a558244fa58e96fe90aedaea139cddf74186f8bc903afe3b3e2d0be70c858d8e82eee04abc6e1eed7d25a3d",
+          "sha256": "8c722288b5bd597906cee71b50aca31523d6318a9bce0bcd24eb4daf040bf943",
+          "sha1": "ac2376461541787d4fa0058e92515e76631c7b54",
+          "md5": "ed7e34ca7ab9d4664cd7efedb1f4f510"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "uz.myid.sdk.capture",
+          "module": "myid-capture-sdk",
+          "version": {
+            "requires": "3.1.3"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-035316565ad77281a75305515e4682e6c4c6f7ca"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "myid_profile-1.0.aar",
+          "url": "myid_profile-1.0.aar",
+          "size": 17009,
+          "sha512": "d6719100c0b7f328e24da80f7affb0cb31c9bff56a558244fa58e96fe90aedaea139cddf74186f8bc903afe3b3e2d0be70c858d8e82eee04abc6e1eed7d25a3d",
+          "sha256": "8c722288b5bd597906cee71b50aca31523d6318a9bce0bcd24eb4daf040bf943",
+          "sha1": "ac2376461541787d4fa0058e92515e76631c7b54",
+          "md5": "ed7e34ca7ab9d4664cd7efedb1f4f510"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "myid_profile-1.0-sources.jar",
+          "url": "myid_profile-1.0-sources.jar",
+          "size": 5049,
+          "sha512": "2e34b7620f8f5115a4f126606fa80f93246d9093c40c09593f6ecbb7e72a568ac27efedf678bb0f7599eee36728b40cff5c2182fa0048ad179a5573f4223bed5",
+          "sha256": "e927cf60c11a5d5f300fc73511c38461915c05bc73d22e1daca638bef55f93ab",
+          "sha1": "53c9efff1cd3cbd54f54ed184b67545830a3204c",
+          "md5": "34d297544b2483a35bd3b869f667f240"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "myid_profile-1.0-javadoc.jar",
+          "url": "myid_profile-1.0-javadoc.jar",
+          "size": 277000,
+          "sha512": "9d3f96af0880270ab9a270c470b474994902be1f2c3fe82a1fbd9dc4533cf531f382e69fa79824de492c6d38db994d0b32248c2ba5659632ed2aa2063d57d88a",
+          "sha256": "8b2b52f9873bab2412f4868daea1a12ebbe2c8eaf693723a590390499d9afa46",
+          "sha1": "b99b9af321db97078e38f7623036e8c6c03add31",
+          "md5": "c133a8ad7a67c6bf013f22b9fb55e10f"
+        }
+      ]
+    }
+  ]
+}
