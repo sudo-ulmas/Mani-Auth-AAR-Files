@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "8.12"
+      "version": "8.14"
     }
   },
   "variants": [
@@ -27,14 +27,14 @@
           "group": "io.flutter",
           "module": "flutter_embedding_debug",
           "version": {
-            "requires": "1.0.0-035316565ad77281a75305515e4682e6c4c6f7ca"
+            "requires": "1.0.0-1527ae0ec577a4ef50e65f6fefcfc1326707d9bf"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "2.1.0"
+            "requires": "2.2.20"
           }
         }
       ],
@@ -42,11 +42,11 @@
         {
           "name": "myid_debug-1.0.aar",
           "url": "myid_debug-1.0.aar",
-          "size": 17664,
-          "sha512": "6fe74851cd27383c671da95b53d81028e93c053db0b498b355ed473665ee5289bac4a5c572f70a465baf96c8da66bb72efb4ec5a1a3d18104a98e74bb781f658",
-          "sha256": "19e809ee037440e2623d06e8e651a54a0655e40ee4a840f20ea363079751d78f",
-          "sha1": "f9627e3bc87a0fea0c5ad421ed3bf9304775fdd4",
-          "md5": "604479f39c2d8950c4272c6862688d49"
+          "size": 17660,
+          "sha512": "13cf58f1b260e945d90c8612676b0087398880351a964e57991902a7b5e48d505188f4821d684ea5d1cd0c5048444a3962b97171f0bfd8be2094983764a517d8",
+          "sha256": "1d6d1cf98de1e827a3d8bf064d9cc57be8b566baec7997f9abc0599eb89d2fa1",
+          "sha1": "da89d21d2e0f9ace4d8daae921f2ffce62050715",
+          "md5": "7c4746f6445252b56e14a21ca493595f"
         }
       ]
     },
@@ -70,14 +70,14 @@
           "group": "io.flutter",
           "module": "flutter_embedding_debug",
           "version": {
-            "requires": "1.0.0-035316565ad77281a75305515e4682e6c4c6f7ca"
+            "requires": "1.0.0-1527ae0ec577a4ef50e65f6fefcfc1326707d9bf"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "2.1.0"
+            "requires": "2.2.20"
           }
         }
       ],
@@ -85,11 +85,11 @@
         {
           "name": "myid_debug-1.0.aar",
           "url": "myid_debug-1.0.aar",
-          "size": 17664,
-          "sha512": "6fe74851cd27383c671da95b53d81028e93c053db0b498b355ed473665ee5289bac4a5c572f70a465baf96c8da66bb72efb4ec5a1a3d18104a98e74bb781f658",
-          "sha256": "19e809ee037440e2623d06e8e651a54a0655e40ee4a840f20ea363079751d78f",
-          "sha1": "f9627e3bc87a0fea0c5ad421ed3bf9304775fdd4",
-          "md5": "604479f39c2d8950c4272c6862688d49"
+          "size": 17660,
+          "sha512": "13cf58f1b260e945d90c8612676b0087398880351a964e57991902a7b5e48d505188f4821d684ea5d1cd0c5048444a3962b97171f0bfd8be2094983764a517d8",
+          "sha256": "1d6d1cf98de1e827a3d8bf064d9cc57be8b566baec7997f9abc0599eb89d2fa1",
+          "sha1": "da89d21d2e0f9ace4d8daae921f2ffce62050715",
+          "md5": "7c4746f6445252b56e14a21ca493595f"
         }
       ]
     },
