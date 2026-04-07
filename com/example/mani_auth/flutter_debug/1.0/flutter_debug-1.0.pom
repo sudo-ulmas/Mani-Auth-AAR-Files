@@ -15,30 +15,66 @@
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>flutter_embedding_debug</artifactId>
-      <version>1.0.0-1527ae0ec577a4ef50e65f6fefcfc1326707d9bf</version>
+      <version>1.0.0-425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>armeabi_v7a_debug</artifactId>
-      <version>1.0.0-1527ae0ec577a4ef50e65f6fefcfc1326707d9bf</version>
+      <version>1.0.0-425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>arm64_v8a_debug</artifactId>
-      <version>1.0.0-1527ae0ec577a4ef50e65f6fefcfc1326707d9bf</version>
+      <version>1.0.0-425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>x86_64_debug</artifactId>
-      <version>1.0.0-1527ae0ec577a4ef50e65f6fefcfc1326707d9bf</version>
+      <version>1.0.0-425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>dev.fluttercommunity.android_id</groupId>
+      <artifactId>android_id_debug</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>dev.fluttercommunity.plus.device_info</groupId>
+      <artifactId>device_info_plus_debug</artifactId>
+      <version>1.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>uz.uzinfocom.myid</groupId>
       <artifactId>myid_debug</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>dev.fluttercommunity.plus.packageinfo</groupId>
+      <artifactId>package_info_plus_debug</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.corbado.passkeys_android</groupId>
+      <artifactId>passkeys_android_debug</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.corbado.passkeys_doctor</groupId>
+      <artifactId>passkeys_doctor_debug</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>jp.wasabeef.ua.client_hints</groupId>
+      <artifactId>ua_client_hints_debug</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
     </dependency>

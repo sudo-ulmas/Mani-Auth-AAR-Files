@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.corbado.passkeys_doctor",
+    "module": "passkeys_doctor_profile",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "passkeys_doctor_profile-1.0.aar",
+          "url": "passkeys_doctor_profile-1.0.aar",
+          "size": 7046,
+          "sha512": "0f0107dfa127acade1e644d678e7a9e49c34ecc7c0197b9d3f99f5707ece810634ef92762ca573654d7e7f252c566b30499c4d3b2127f51966ec0a2a5a6e0ef8",
+          "sha256": "e37ed987735632f16bcf0babf3636cc879bfad42864b799ff7ab7478d04e8938",
+          "sha1": "c0947dec88ec439ffbf11cc27e6eb4f128587f0e",
+          "md5": "5318f4907db9f7970ab9f8ac14d424b0"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb"
+          }
+        },
+        {
+          "group": "dev.fluttercommunity.plus.device_info",
+          "module": "device_info_plus_profile",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "dev.fluttercommunity.plus.packageinfo",
+          "module": "package_info_plus_profile",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "passkeys_doctor_profile-1.0.aar",
+          "url": "passkeys_doctor_profile-1.0.aar",
+          "size": 7046,
+          "sha512": "0f0107dfa127acade1e644d678e7a9e49c34ecc7c0197b9d3f99f5707ece810634ef92762ca573654d7e7f252c566b30499c4d3b2127f51966ec0a2a5a6e0ef8",
+          "sha256": "e37ed987735632f16bcf0babf3636cc879bfad42864b799ff7ab7478d04e8938",
+          "sha1": "c0947dec88ec439ffbf11cc27e6eb4f128587f0e",
+          "md5": "5318f4907db9f7970ab9f8ac14d424b0"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "passkeys_doctor_profile-1.0-sources.jar",
+          "url": "passkeys_doctor_profile-1.0-sources.jar",
+          "size": 3161,
+          "sha512": "b19f9bba1e42c19c684c8a409ee17411263952c49ba97b34fe8e28b62b4dd7fbb227f57bdfa2c9bcae37bc7c560a0a36c1281af59b1b5e7b46644998291c6ab7",
+          "sha256": "c8bc5f63d2412ca33deba455847b2539cabfd1ab451e7d902c32bec7f4d95fd2",
+          "sha1": "18920dee025953c2194f9532cceb5059f6450ed1",
+          "md5": "0cda1aa954dbd58a77a667ac2ad1c9b3"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "passkeys_doctor_profile-1.0-javadoc.jar",
+          "url": "passkeys_doctor_profile-1.0-javadoc.jar",
+          "size": 283705,
+          "sha512": "144dd2e4e4374677381bb9a015d78faa0d49107b88a86e11a29813863165b815b2fedcafd3a8758ba61fdace9c26ae0c9fd2634ba64ef9e7adabc73e63913d5e",
+          "sha256": "e956e24469bb7f848a20880a74a2d9e57a985c5940fd60457fcca4b2fb556e41",
+          "sha1": "e95c73796d64f422bd43cbb0fbe9a35242309b6c",
+          "md5": "60a5a9ed5b7856a5df71fec2d0c7ca28"
+        }
+      ]
+    }
+  ]
+}

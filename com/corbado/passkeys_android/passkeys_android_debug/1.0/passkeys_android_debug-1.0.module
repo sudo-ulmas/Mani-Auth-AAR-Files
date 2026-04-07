@@ -1,0 +1,165 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.corbado.passkeys_android",
+    "module": "passkeys_android_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "passkeys_android_debug-1.0.aar",
+          "url": "passkeys_android_debug-1.0.aar",
+          "size": 48901,
+          "sha512": "ff78fbbf4af0879a5151a94849ef0537dd1e8957421340c68a709ab923fae528056f0901bf96599f64b5a99a9ff5bf31e81cfb60734be3dc2243ecf647534338",
+          "sha256": "a82838038530228d37ba6a73c7dc1a3ca0c8dd341745c52c8198c3261b3194a1",
+          "sha1": "725d24a4d2b9b121587b8b87f5fabccaba0e2d75",
+          "md5": "c43f7e01eb723b0b0854f97022c3293d"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "androidx.credentials",
+          "module": "credentials",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "androidx.credentials",
+          "module": "credentials-play-services-auth",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-auth",
+          "version": {
+            "requires": "20.5.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-fido",
+          "version": {
+            "requires": "20.0.1"
+          }
+        },
+        {
+          "group": "androidx.multidex",
+          "module": "multidex",
+          "version": {
+            "requires": "2.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "passkeys_android_debug-1.0.aar",
+          "url": "passkeys_android_debug-1.0.aar",
+          "size": 48901,
+          "sha512": "ff78fbbf4af0879a5151a94849ef0537dd1e8957421340c68a709ab923fae528056f0901bf96599f64b5a99a9ff5bf31e81cfb60734be3dc2243ecf647534338",
+          "sha256": "a82838038530228d37ba6a73c7dc1a3ca0c8dd341745c52c8198c3261b3194a1",
+          "sha1": "725d24a4d2b9b121587b8b87f5fabccaba0e2d75",
+          "md5": "c43f7e01eb723b0b0854f97022c3293d"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "passkeys_android_debug-1.0-sources.jar",
+          "url": "passkeys_android_debug-1.0-sources.jar",
+          "size": 15103,
+          "sha512": "18d4fd3c6be0145f2775d87e15af794fc7ff3f172eed2c78cabedca8fcbc58609db04c13b1d2f7ac512d30a69d43a648029ab4b1ad74a289c18d6e27cffb17ed",
+          "sha256": "e1ff9be503d7b8997bb6419406889a8a841322a2b8db54d477c8e059a72ad554",
+          "sha1": "4827d974b6bdfd20cb8cb2dfcb5810686e8191da",
+          "md5": "d173a3f159d7447dafc1b995af656bd7"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "passkeys_android_debug-1.0-javadoc.jar",
+          "url": "passkeys_android_debug-1.0-javadoc.jar",
+          "size": 403696,
+          "sha512": "a3eae398cad1c757b1fe3ed501c8d4de5effad415d35429719cf94f0da527e36dfd7ef33d73bed7a1374845fd1b145f487bad244e4a593094604200138aa45f0",
+          "sha256": "6acae883999e1362e72a8f9ca6d1dfb79ecb148e0a9d61ac212051665e831953",
+          "sha1": "8abb6ba02bb512b72fcf0f7630180d66b3af25c5",
+          "md5": "98e53064a682ed829896fb0c450261a7"
+        }
+      ]
+    }
+  ]
+}

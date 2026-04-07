@@ -15,7 +15,7 @@
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>flutter_embedding_debug</artifactId>
-      <version>1.0.0-1527ae0ec577a4ef50e65f6fefcfc1326707d9bf</version>
+      <version>1.0.0-425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
