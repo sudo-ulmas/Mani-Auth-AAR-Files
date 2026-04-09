@@ -35,11 +35,11 @@
         {
           "name": "passkeys_android_release-1.0.aar",
           "url": "passkeys_android_release-1.0.aar",
-          "size": 46669,
-          "sha512": "76f6020cb5624482e715aa3a95fd4e26904a179d40c4478e4c8fb495f577480182ee71e5d3800ef7a8587af85a55000a272c4b01bc0087871b65048ea576c8af",
-          "sha256": "403a88413fa4e37b5f9865ec3bd137705c6c52944d0b8b9f49536e1bb2766cfd",
-          "sha1": "32be1d6b14f741576d1c40a3452456db6820282d",
-          "md5": "fbbf3c270a6e56b8cad658275daff6ac"
+          "size": 46679,
+          "sha512": "33760b68d65963583bd13ba4a9cec7380fc4fde11fe61bdfb1bfba1f3328b2cb537c92ef2b2f2c684010caab26a9ebfe5d4f303bad9c6ced4dcfdb9b2d3c7fe0",
+          "sha256": "b3b8e3c05cd61f67152225def4fe9ee995b638bbd62cfe64944453242400c20f",
+          "sha1": "0986d172f0f4508563c601c4744bfa0f1a189311",
+          "md5": "ec779cc310241ac405a35c122c519e87"
         }
       ]
     },
@@ -113,11 +113,11 @@
         {
           "name": "passkeys_android_release-1.0.aar",
           "url": "passkeys_android_release-1.0.aar",
-          "size": 46669,
-          "sha512": "76f6020cb5624482e715aa3a95fd4e26904a179d40c4478e4c8fb495f577480182ee71e5d3800ef7a8587af85a55000a272c4b01bc0087871b65048ea576c8af",
-          "sha256": "403a88413fa4e37b5f9865ec3bd137705c6c52944d0b8b9f49536e1bb2766cfd",
-          "sha1": "32be1d6b14f741576d1c40a3452456db6820282d",
-          "md5": "fbbf3c270a6e56b8cad658275daff6ac"
+          "size": 46679,
+          "sha512": "33760b68d65963583bd13ba4a9cec7380fc4fde11fe61bdfb1bfba1f3328b2cb537c92ef2b2f2c684010caab26a9ebfe5d4f303bad9c6ced4dcfdb9b2d3c7fe0",
+          "sha256": "b3b8e3c05cd61f67152225def4fe9ee995b638bbd62cfe64944453242400c20f",
+          "sha1": "0986d172f0f4508563c601c4744bfa0f1a189311",
+          "md5": "ec779cc310241ac405a35c122c519e87"
         }
       ]
     },
@@ -133,11 +133,11 @@
         {
           "name": "passkeys_android_release-1.0-sources.jar",
           "url": "passkeys_android_release-1.0-sources.jar",
-          "size": 15103,
-          "sha512": "18d4fd3c6be0145f2775d87e15af794fc7ff3f172eed2c78cabedca8fcbc58609db04c13b1d2f7ac512d30a69d43a648029ab4b1ad74a289c18d6e27cffb17ed",
-          "sha256": "e1ff9be503d7b8997bb6419406889a8a841322a2b8db54d477c8e059a72ad554",
-          "sha1": "4827d974b6bdfd20cb8cb2dfcb5810686e8191da",
-          "md5": "d173a3f159d7447dafc1b995af656bd7"
+          "size": 14939,
+          "sha512": "1be8dbc7b623dc244afbeedb5b66a07df8ffbbfd773eb44a182397ca94bf302ae01308dc64c503ca12f409fa2f47db23304239033d2837f905d718b98021f568",
+          "sha256": "76ec5c93f08da7474a2ff6dc3f3d12a7ae130a9f0b82261d32063c0841a63e4c",
+          "sha1": "5e1d6495f1a7a94c83ecd112e58854ea0aa18487",
+          "md5": "fa4c33dbf1f4173aa00753897518f415"
         }
       ]
     },
