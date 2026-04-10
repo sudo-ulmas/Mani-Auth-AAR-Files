@@ -105,7 +105,8 @@ enum class ManiResidentType(val raw: Int) {
 enum class DesignVariant(val raw: Int) {
   MANI(0),
   SMARTBANK(1),
-  BRB(2);
+  BRB(2),
+  MKB(3);
 
   companion object {
     fun ofRaw(raw: Int): DesignVariant? {

@@ -97,7 +97,8 @@ public class Api {
   public enum DesignVariant {
     MANI(0),
     SMARTBANK(1),
-    BRB(2);
+    BRB(2),
+    MKB(3);
 
     final int index;
 
