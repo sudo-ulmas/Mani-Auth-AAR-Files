@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "8.14"
+      "version": "9.3.1"
     }
   },
   "variants": [
@@ -27,7 +27,14 @@
           "group": "io.flutter",
           "module": "flutter_embedding_release",
           "version": {
-            "requires": "1.0.0-425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb"
+            "requires": "1.0.0-06a2e2a110089dff50fe635cffd2a61e1b24fbcd"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
           }
         }
       ],
@@ -35,11 +42,11 @@
         {
           "name": "url_launcher_android_release-1.0.aar",
           "url": "url_launcher_android_release-1.0.aar",
-          "size": 22347,
-          "sha512": "2592a017c91044cfe304197eb7456059fdc55eb927a218350e1b16c001435e2c5191f2b6b8f57896f96f4e43284b04ae2aecf08280afb0ea90082e07f85676e1",
-          "sha256": "da7747d26df3e0dbae60c1f602e2d681ba9892f0e14e3b59a2f66227cb3aa4d1",
-          "sha1": "10d1ed884f40aceec08ca78f349321244ca1892d",
-          "md5": "196428c8b322e444621bfcc562afce2d"
+          "size": 22349,
+          "sha512": "45c3bf73d06b118f455df8f6f5360a8665bf3ba325d5d338f65bf11ac0c348a26d1dd07e8c95130a80270cd951c2ecaff79246082ea5587e00fc5304c67d8cc9",
+          "sha256": "01bb4d43590ce654648464fb2c2b41723a69c1af0b0b4b2543978f8f4836bf03",
+          "sha1": "b3c50f2988a804d09b5deca5a3f771b756f88c37",
+          "md5": "03a1d667febc22ca46fc000cd8a633a3"
         }
       ]
     },
@@ -56,7 +63,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_release",
           "version": {
-            "requires": "1.0.0-425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb"
+            "requires": "1.0.0-06a2e2a110089dff50fe635cffd2a61e1b24fbcd"
           }
         },
         {
@@ -79,17 +86,24 @@
           "version": {
             "requires": "1.9.0"
           }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
         }
       ],
       "files": [
         {
           "name": "url_launcher_android_release-1.0.aar",
           "url": "url_launcher_android_release-1.0.aar",
-          "size": 22347,
-          "sha512": "2592a017c91044cfe304197eb7456059fdc55eb927a218350e1b16c001435e2c5191f2b6b8f57896f96f4e43284b04ae2aecf08280afb0ea90082e07f85676e1",
-          "sha256": "da7747d26df3e0dbae60c1f602e2d681ba9892f0e14e3b59a2f66227cb3aa4d1",
-          "sha1": "10d1ed884f40aceec08ca78f349321244ca1892d",
-          "md5": "196428c8b322e444621bfcc562afce2d"
+          "size": 22349,
+          "sha512": "45c3bf73d06b118f455df8f6f5360a8665bf3ba325d5d338f65bf11ac0c348a26d1dd07e8c95130a80270cd951c2ecaff79246082ea5587e00fc5304c67d8cc9",
+          "sha256": "01bb4d43590ce654648464fb2c2b41723a69c1af0b0b4b2543978f8f4836bf03",
+          "sha1": "b3c50f2988a804d09b5deca5a3f771b756f88c37",
+          "md5": "03a1d667febc22ca46fc000cd8a633a3"
         }
       ]
     },

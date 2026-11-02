@@ -15,25 +15,25 @@
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>flutter_embedding_profile</artifactId>
-      <version>1.0.0-425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb</version>
+      <version>1.0.0-06a2e2a110089dff50fe635cffd2a61e1b24fbcd</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>armeabi_v7a_profile</artifactId>
-      <version>1.0.0-425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb</version>
+      <version>1.0.0-06a2e2a110089dff50fe635cffd2a61e1b24fbcd</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>arm64_v8a_profile</artifactId>
-      <version>1.0.0-425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb</version>
+      <version>1.0.0-06a2e2a110089dff50fe635cffd2a61e1b24fbcd</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>x86_64_profile</artifactId>
-      <version>1.0.0-425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb</version>
+      <version>1.0.0-06a2e2a110089dff50fe635cffd2a61e1b24fbcd</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -69,12 +69,6 @@
     <dependency>
       <groupId>com.corbado.passkeys_doctor</groupId>
       <artifactId>passkeys_doctor_profile</artifactId>
-      <version>1.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>jp.wasabeef.ua.client_hints</groupId>
-      <artifactId>ua_client_hints_profile</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
     </dependency>

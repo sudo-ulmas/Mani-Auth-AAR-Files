@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "8.14"
+      "version": "9.3.1"
     }
   },
   "variants": [
@@ -27,7 +27,14 @@
           "group": "io.flutter",
           "module": "flutter_embedding_debug",
           "version": {
-            "requires": "1.0.0-425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb"
+            "requires": "1.0.0-06a2e2a110089dff50fe635cffd2a61e1b24fbcd"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
           }
         }
       ],
@@ -35,11 +42,11 @@
         {
           "name": "passkeys_doctor_debug-1.0.aar",
           "url": "passkeys_doctor_debug-1.0.aar",
-          "size": 7046,
-          "sha512": "0f0107dfa127acade1e644d678e7a9e49c34ecc7c0197b9d3f99f5707ece810634ef92762ca573654d7e7f252c566b30499c4d3b2127f51966ec0a2a5a6e0ef8",
-          "sha256": "e37ed987735632f16bcf0babf3636cc879bfad42864b799ff7ab7478d04e8938",
-          "sha1": "c0947dec88ec439ffbf11cc27e6eb4f128587f0e",
-          "md5": "5318f4907db9f7970ab9f8ac14d424b0"
+          "size": 9271,
+          "sha512": "f708a9d216e3d9f4810513167e79130f4c46626878802983f16238a88c885f331b825c49709e9723f26b5de4d892f09a5c6297b315475cc7a7325725efae350c",
+          "sha256": "a118161e32c47c4659d211a37f401cd2fbca047e735f874d564659a3e8f59fd3",
+          "sha1": "d4006a552179a34ad7879394583a18749d423bb6",
+          "md5": "f26fd227c90791158c5a4cfeb8f4e207"
         }
       ]
     },
@@ -56,7 +63,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_debug",
           "version": {
-            "requires": "1.0.0-425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb"
+            "requires": "1.0.0-06a2e2a110089dff50fe635cffd2a61e1b24fbcd"
           }
         },
         {
@@ -72,17 +79,24 @@
           "version": {
             "requires": "1.0"
           }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
         }
       ],
       "files": [
         {
           "name": "passkeys_doctor_debug-1.0.aar",
           "url": "passkeys_doctor_debug-1.0.aar",
-          "size": 7046,
-          "sha512": "0f0107dfa127acade1e644d678e7a9e49c34ecc7c0197b9d3f99f5707ece810634ef92762ca573654d7e7f252c566b30499c4d3b2127f51966ec0a2a5a6e0ef8",
-          "sha256": "e37ed987735632f16bcf0babf3636cc879bfad42864b799ff7ab7478d04e8938",
-          "sha1": "c0947dec88ec439ffbf11cc27e6eb4f128587f0e",
-          "md5": "5318f4907db9f7970ab9f8ac14d424b0"
+          "size": 9271,
+          "sha512": "f708a9d216e3d9f4810513167e79130f4c46626878802983f16238a88c885f331b825c49709e9723f26b5de4d892f09a5c6297b315475cc7a7325725efae350c",
+          "sha256": "a118161e32c47c4659d211a37f401cd2fbca047e735f874d564659a3e8f59fd3",
+          "sha1": "d4006a552179a34ad7879394583a18749d423bb6",
+          "md5": "f26fd227c90791158c5a4cfeb8f4e207"
         }
       ]
     },
@@ -98,11 +112,11 @@
         {
           "name": "passkeys_doctor_debug-1.0-sources.jar",
           "url": "passkeys_doctor_debug-1.0-sources.jar",
-          "size": 3161,
-          "sha512": "b19f9bba1e42c19c684c8a409ee17411263952c49ba97b34fe8e28b62b4dd7fbb227f57bdfa2c9bcae37bc7c560a0a36c1281af59b1b5e7b46644998291c6ab7",
-          "sha256": "c8bc5f63d2412ca33deba455847b2539cabfd1ab451e7d902c32bec7f4d95fd2",
-          "sha1": "18920dee025953c2194f9532cceb5059f6450ed1",
-          "md5": "0cda1aa954dbd58a77a667ac2ad1c9b3"
+          "size": 4201,
+          "sha512": "0584e8c994c55244052e2a13e0754c4f14606e8620ea8936a3e038fb7f8f75efb721cac86585b3dd2ca96b8e9eb3696e4ef83c8585746e2f241f2be4abbc23e9",
+          "sha256": "c86f0694939834734f05bede669243901d71fff560bcf8d0fc02c5c35daaa985",
+          "sha1": "784923740d15ea68b1240441abe727924b1d8259",
+          "md5": "307916ae8d1862fadb67a72a5b365b03"
         }
       ]
     },

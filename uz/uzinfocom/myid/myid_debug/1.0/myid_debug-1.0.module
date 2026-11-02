@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "8.14"
+      "version": "9.3.1"
     }
   },
   "variants": [
@@ -27,14 +27,14 @@
           "group": "io.flutter",
           "module": "flutter_embedding_debug",
           "version": {
-            "requires": "1.0.0-425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb"
+            "requires": "1.0.0-06a2e2a110089dff50fe635cffd2a61e1b24fbcd"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "2.2.20"
+            "requires": "2.4.0"
           }
         }
       ],
@@ -42,11 +42,11 @@
         {
           "name": "myid_debug-1.0.aar",
           "url": "myid_debug-1.0.aar",
-          "size": 17660,
-          "sha512": "13cf58f1b260e945d90c8612676b0087398880351a964e57991902a7b5e48d505188f4821d684ea5d1cd0c5048444a3962b97171f0bfd8be2094983764a517d8",
-          "sha256": "1d6d1cf98de1e827a3d8bf064d9cc57be8b566baec7997f9abc0599eb89d2fa1",
-          "sha1": "da89d21d2e0f9ace4d8daae921f2ffce62050715",
-          "md5": "7c4746f6445252b56e14a21ca493595f"
+          "size": 18094,
+          "sha512": "5e3b8ef0967a05d98ac097003c949e5c9ec31e13d6426d50430998bedae4ca03a8e5faaf16d4eea6871c6a4382923a7d938a44beb21cd6f528c4591d53509f09",
+          "sha256": "025f32294d3d58c74df5e0b39f7bfdf52de41b1f5c2ee6a28a48c16a7852ab10",
+          "sha1": "849d45e23b5a7760d02f588212f10386317270de",
+          "md5": "a34638ac2c5d57d03282714f7f175132"
         }
       ]
     },
@@ -63,21 +63,21 @@
           "group": "uz.myid.sdk.capture",
           "module": "myid-capture-sdk-debug",
           "version": {
-            "requires": "3.1.4"
+            "requires": "3.1.9"
           }
         },
         {
           "group": "io.flutter",
           "module": "flutter_embedding_debug",
           "version": {
-            "requires": "1.0.0-425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb"
+            "requires": "1.0.0-06a2e2a110089dff50fe635cffd2a61e1b24fbcd"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "2.2.20"
+            "requires": "2.4.0"
           }
         }
       ],
@@ -85,11 +85,11 @@
         {
           "name": "myid_debug-1.0.aar",
           "url": "myid_debug-1.0.aar",
-          "size": 17660,
-          "sha512": "13cf58f1b260e945d90c8612676b0087398880351a964e57991902a7b5e48d505188f4821d684ea5d1cd0c5048444a3962b97171f0bfd8be2094983764a517d8",
-          "sha256": "1d6d1cf98de1e827a3d8bf064d9cc57be8b566baec7997f9abc0599eb89d2fa1",
-          "sha1": "da89d21d2e0f9ace4d8daae921f2ffce62050715",
-          "md5": "7c4746f6445252b56e14a21ca493595f"
+          "size": 18094,
+          "sha512": "5e3b8ef0967a05d98ac097003c949e5c9ec31e13d6426d50430998bedae4ca03a8e5faaf16d4eea6871c6a4382923a7d938a44beb21cd6f528c4591d53509f09",
+          "sha256": "025f32294d3d58c74df5e0b39f7bfdf52de41b1f5c2ee6a28a48c16a7852ab10",
+          "sha1": "849d45e23b5a7760d02f588212f10386317270de",
+          "md5": "a34638ac2c5d57d03282714f7f175132"
         }
       ]
     },
@@ -105,11 +105,11 @@
         {
           "name": "myid_debug-1.0-sources.jar",
           "url": "myid_debug-1.0-sources.jar",
-          "size": 5049,
-          "sha512": "2e34b7620f8f5115a4f126606fa80f93246d9093c40c09593f6ecbb7e72a568ac27efedf678bb0f7599eee36728b40cff5c2182fa0048ad179a5573f4223bed5",
-          "sha256": "e927cf60c11a5d5f300fc73511c38461915c05bc73d22e1daca638bef55f93ab",
-          "sha1": "53c9efff1cd3cbd54f54ed184b67545830a3204c",
-          "md5": "34d297544b2483a35bd3b869f667f240"
+          "size": 5111,
+          "sha512": "207c663c88c35d17b636b503c01845007b2f8168a1f8f86d5bb79a06a5a3c7031da92cbf9a760781e3c29628ab12709778aa07565b9ca0438127f897133d64b0",
+          "sha256": "26f6f40a6f6ef91489fe6e772255b3b313116359eeb3b6d71c8e3cbcd23c3f31",
+          "sha1": "db9d8b51a7a0732607bcfa3df64ac5b71243efd4",
+          "md5": "3ee3fc1f582ca3b7dda4c0dce91a6f13"
         }
       ]
     },
@@ -125,11 +125,11 @@
         {
           "name": "myid_debug-1.0-javadoc.jar",
           "url": "myid_debug-1.0-javadoc.jar",
-          "size": 277000,
-          "sha512": "9d3f96af0880270ab9a270c470b474994902be1f2c3fe82a1fbd9dc4533cf531f382e69fa79824de492c6d38db994d0b32248c2ba5659632ed2aa2063d57d88a",
-          "sha256": "8b2b52f9873bab2412f4868daea1a12ebbe2c8eaf693723a590390499d9afa46",
-          "sha1": "b99b9af321db97078e38f7623036e8c6c03add31",
-          "md5": "c133a8ad7a67c6bf013f22b9fb55e10f"
+          "size": 276990,
+          "sha512": "f91a15118d75589f1764d0bcf612863938b88c3465894e66e272cae5e3eea5677ed9a04bc47b9fcd048e77c43f2ec1163d47531c7f374224610ae8faf1b0ec97",
+          "sha256": "2ccc524608e26df15cfd6e48be12fbbcc903ea51b7cadf5a03a5914db67d40b8",
+          "sha1": "dbce8fc4db7cf9c75207fef5d41d7e54404bc1ce",
+          "md5": "4e43a933cdc2a00dcca33d484f086d18"
         }
       ]
     }
